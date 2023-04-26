@@ -1,0 +1,80 @@
+body{
+    font-family: 'Cormorant', serif;
+}
+h1{
+    display: inline-block;
+    font-weight: 300;
+    margin: 0 32px 0 0;
+}
+.headerLinks{
+    display: inline-block;
+}
+.headerLinks li{
+    display: inline-block;
+}
+.headerLinks a{
+    text-decoration: none;
+    font-size: 20px;
+    margin: 0 8px;
+    color: black;
+}
+.headerLinks ul{
+    padding: 0;
+}
+.page-header{
+    margin: 32px 32px 0px 32px;
+}
+a.active{
+   border-bottom: 1px solid black;
+}
+.gallery{
+    width: 49.05%;
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 0px 16px 16px 16px;
+    margin: 0px;
+}
+
+.gallery img{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+.gallery img:hover{
+    opacity: 0.8;
+}
+.card-gallery{
+    padding: 16px;
+}
+.gallery figcaption{
+    display: inline-block;
+    margin: 8px 0 16px 0;
+    font-weight: 300; 
+}
+.footer{
+    width: 40%;
+    min-width: 600px;
+    margin: 100px 0 100px 200px;
+}
+.footer h3{
+    font-size: 40px;
+    font-weight: 300;
+
+}
+.contact{
+    margin-top: 100px;
+}
+.contact p{
+    margin: 0;
+    font-size: 20px;
+}
+.contact p a{
+    text-decoration: none;
+    color:black;
+}
+.calltoaction{
+    border-bottom: 1px solid black;
+    display: inline-block;
+    padding-bottom: 8px;
+    margin-top: 0;
+}
