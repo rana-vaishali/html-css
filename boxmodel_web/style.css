@@ -78,3 +78,25 @@ a.active{
     padding-bottom: 8px;
     margin-top: 0;
 }
+
+@media only screen and (max-width: 1000px){
+    .gallery {
+        width: 100%;
+    }
+    .footer{
+        margin: 100px 0 100px 100px;
+    }
+}
+@media only screen and (max-width: 700px){
+    .gallery {
+        padding: 0;
+    }
+    .card-gallery{
+        padding: 8px;
+    }
+    .footer{
+        margin:100px auto;
+        min-width: 450px;
+    }
+}
+
