@@ -1,0 +1,23 @@
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+/* button{
+
+} */
+.btn{
+    position: relative;
+}
+span{
+    position: absolute;
+    border-radius: 85px;
+    background-color:#4caf50;
+    color: white;
+    top: -20px;
+    right: -15px;
+    border: 2px solid white;
+    padding: 5px 10px;
+}
