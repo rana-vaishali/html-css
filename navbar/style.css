@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+}
+.navbar{
+    background-color: black;
+    height: 70px;
+    display: flex;
+    justify-content: flex-start;
+    align-items:center;
+}
+.nav-item{
+    color: white;
+    font-size: 2rem;
+    margin: 0 30px;
+}
+.nav-item.right{
+margin-left: auto;/* to shift this element all the way to right */
+margin-right: 100px; /* to give margin from the right*/
+}
+.navbar2{
+    /* display: block; */
+    background-color: blueviolet;
+        height: 70px;
+        display: flex;
+        justify-content: space-between;
+        align-items:center;
+   
+}
+.navbar2 .left{
+    background-color: brown;
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+}
+.navbar2 .right{
+    background-color: coral;
+    display: flex;
+    justify-content: center;
+    width: 500px;
+}
+.badge-container{
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.badge{
+    display:flex;
+    height: 200px;
+    width: 200px;
+    background-color: yellow;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+}
